@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build --bundle && serve build"
+    "build": "snowpack build --clean && serve build -l 8080"
   },
   "dependencies": {
     "react": "^16.13.1",
